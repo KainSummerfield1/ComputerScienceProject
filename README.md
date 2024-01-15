@@ -1,10 +1,10 @@
 # ComputerScienceProject
 
 ## Project Goals:
-•	Structure Diagram (Paper)
-•	Structure Diagram (Digital)
-•	Flow Chart (Paper)
-•	Flow Chart (Digital)
+- Structure Diagram (Paper)
+- Structure Diagram (Digital)
+-	Flow Chart (Paper)
+-	Flow Chart (Digital)
 - Planned Tests
 - Code that uses:
 - Authentication
