@@ -24,7 +24,7 @@
 >Created Structure Diagram Phisically
 
 ### 12.1.24 
->Created Structure Diagram Digitally
+>Created [Structure Diagram Digitally](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/StructureDiagram.png)
 
 ### 15.1.24
 >Goal to create both Phiscial Flow Chart, Digital Flow Chart and merge [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage) to this [GitHub Repository.](https://github.com/KainSummerfield1/ComputerScienceProject)
