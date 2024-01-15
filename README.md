@@ -1,6 +1,8 @@
 # ComputerScienceProject
+
 > [!IMPORTANT]
 > This Project is over the span of 20 Hours. Try to do as much work as you can within the lesson!
+
 ## Project Goals:
 - [x] Structure Diagram (Paper)
 - [x] Structure Diagram (Digital)
