@@ -27,5 +27,5 @@
 >Created Structure Diagram Digitally
 
 ### 15.1.24
->Goal to create both Phiscial Flow Chart and Digital Flow Chart
+>Goal to create both Phiscial Flow Chart, Digital Flow Chart and merge OneDrive to this GitHub Repository
 
