@@ -1,5 +1,6 @@
 # ComputerScienceProject
-
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 ## Project Goals:
 - [x] Structure Diagram (Paper)
 - [x] Structure Diagram (Digital)
