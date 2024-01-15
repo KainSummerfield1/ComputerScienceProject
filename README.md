@@ -1,7 +1,5 @@
 # ComputerScienceProject
 
-> [!IMPORTANT]
-
 ## Project Goals:
 - [x] Structure Diagram (Paper)
 - [x] Structure Diagram (Digital)
