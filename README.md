@@ -1,9 +1,8 @@
 # ComputerScienceProject
 
 > [!IMPORTANT]
-> This Project is over the span of 20 Hours. Try to do as much work as you can within the lesson!
-
-## Project Goals:
+> 
+> ## Project Goals:
 - [x] Structure Diagram (Paper)
 - [x] Structure Diagram (Digital)
 - [ ]	Flow Chart (Paper)
@@ -29,3 +28,5 @@
 ### 15.1.24
 >Goal to create both Phiscial Flow Chart, Digital Flow Chart and merge [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage) to this [GitHub Repository.](https://github.com/KainSummerfield1/ComputerScienceProject)
 
+### 22.1.24
+>Goal to 
