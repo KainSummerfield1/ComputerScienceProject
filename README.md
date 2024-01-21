@@ -29,4 +29,4 @@
 >Goal to create both Phiscial Flow Chart, Digital Flow Chart and merge [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage) to this [GitHub Repository.](https://github.com/KainSummerfield1/ComputerScienceProject)
 
 ### 22.1.24
->Goal to 
+>Insert Text Here
