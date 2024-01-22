@@ -6,7 +6,7 @@
 - [x] Structure Diagram (Paper)
 - [x] Structure Diagram (Digital)
 - [ ]	Flow Chart (Paper)
-- [ ]	Flow Chart (Digital)
+- [x]	Flow Chart (Digital)
 - [ ] Planned Tests
 - Code that uses:
   - [ ] Authentication
