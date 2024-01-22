@@ -29,4 +29,4 @@
 >Merged [OneDrive](https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage) to this [GitHub Repository.](https://github.com/KainSummerfield1/ComputerScienceProject)
 
 ### 22.1.24
->Created [Digital Flow Chart](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/flowchart.png) Need to start making planned tests.
+>Created [Digital Flow Chart.](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/flowchart.png) Need to start making planned tests.
