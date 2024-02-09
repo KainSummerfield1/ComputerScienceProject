@@ -32,4 +32,4 @@
 >Created [Digital Flow Chart.](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/flowchart.png)
 
 ### 9.2.24
->Started Making Planned Tests
+>Created Planned Tests
