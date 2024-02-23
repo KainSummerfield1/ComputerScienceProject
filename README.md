@@ -5,7 +5,6 @@
 > ## Project Goals:
 - [x] Structure Diagram (Paper)
 - [x] Structure Diagram (Digital)
-- [ ]	Flow Chart (Paper)
 - [x]	Flow Chart (Digital)
 - [x] Planned Tests
 - Code that uses:
