@@ -19,7 +19,7 @@
 -----------------------------------
 
 ### 8.1.24
->Created Structure Diagram Phisically
+>Created Structure Diagram Physically
 
 ### 12.1.24 
 >Created [Structure Diagram Digitally](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/StructureDiagram.png)
@@ -32,3 +32,6 @@
 
 ### 9.2.24
 >Created [Planned Tests](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/tests)
+
+### 23.02.24
+>Made Login code
