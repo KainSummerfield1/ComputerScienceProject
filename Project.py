@@ -4,6 +4,7 @@ password = "password"
 song = ()
 userguess1 = ()
 userguess2 = ()
+score = ()
 usernameuserinput = ()
 usernameuserinput = input("Please enter your username: ")
 
@@ -24,6 +25,11 @@ while passworduserinput != password:
 
 print ("Game Starting...")
 
+print("There will be one letter and the Artist's name. You have to try and guess the song name")
+
 song = random.choice(open('songs.txt').readlines())
 
 print(song)
+
+
+
