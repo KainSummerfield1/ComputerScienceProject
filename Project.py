@@ -1,15 +1,29 @@
 import random
+username = "user1"
+password = "password"
+song = ()
+userguess1 = ()
+userguess2 = ()
+usernameuserinput = ()
+usernameuserinput = input("Please enter your username: ")
 
-login1 = ("user1:password1")
+passworduserinput = ()
+passworduserinput = input("Please enter your password: ")
 
+while usernameuserinput != username:
+    print("Username or Password Incorrect! Try Again.")
+    usernameuserinput = input(
+        "Please enter your username: ")
+    passworduserinput = input("Please enter your password: ")
 
-loginuserinput = ()
-loginuserinput = input("Please enter your login (must be seperated with a colon) : ")
+while passworduserinput != password:
+    print("Username or Password Incorrect! Try Again.")
+    usernameuserinput = input(
+        "Please enter your username: ")
+    passworduserinput = input("Please enter your password: ")
 
-while login1 !=loginuserinput:
-    print("wrong login! try again!")
-    loginuserinput = input("Please enter your login (must be seperated with a colon) : ")
-print("game starting!")
-    
-        
-file = open("songs.txt","r")
+print ("Game Starting...")
+
+song = random.choice(open('songs.txt').readlines())
+
+print(song)
