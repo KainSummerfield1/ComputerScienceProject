@@ -34,7 +34,7 @@
 >Created [Planned Tests](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/tests)
 
 ### 23.02.24
->Made Login code
+>Made Login [code](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/Project.py)
 
 ### 1.03.24
->Made code select a random song and print the first letter
+>Made [code](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/Project.py) select a random song and print the first letter
