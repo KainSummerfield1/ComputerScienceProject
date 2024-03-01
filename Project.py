@@ -46,4 +46,4 @@ print(
 
 print("  ")
 
-print(random.choice(songs))
+print(random.choice(songs)[0])
