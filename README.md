@@ -35,3 +35,6 @@
 
 ### 23.02.24
 >Made Login code
+
+### 1.03.24
+>Made code select a random song and print the first letter
