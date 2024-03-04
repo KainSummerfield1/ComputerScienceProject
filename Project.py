@@ -1,12 +1,16 @@
 import random
+import sys
+# importing random for chosing random song
 
 songs = [
-"song1 - artist 1",
-"song2 - artist 2",
-"song3 - artist 3",
-"song4 - artist 4",
-"song5 - artist 5",
+"1test",
+"2test",
+"3test",
+"4test",
+"5test",
 ]
+
+# list of songs
 
 username = "a"
 password = "a"
@@ -16,6 +20,9 @@ userguess1 = ()
 userguess2 = ()
 score = ()
 usernameuserinput = ()
+
+# required variables
+
 usernameuserinput = input("Please enter your username: ")
 
 print("  ")
@@ -28,12 +35,15 @@ while usernameuserinput != username:
     usernameuserinput = input("Please enter your username: ")
     print("  ")
     passworduserinput = input("Please enter your password: ")
+    
+# makes sure that the username + password is correct
 
 while passworduserinput != password:
     print("Username or Password Incorrect! Try Again.")
     usernameuserinput = input("Please enter your username: ")
     print("  ")
     passworduserinput = input("Please enter your password: ")
+    
 print("  ")
 
 print("Game Starting...")
@@ -46,4 +56,27 @@ print(
 
 print("  ")
 
-print(random.choice(songs)[0])
+songguess = random.choice(songs)
+
+print(songguess[0])
+
+# picks a random song and displays the first letter
+
+print("   ")
+
+userguess1 = input("What do you think the song is? : ")
+
+if userguess1 != songguess:
+    print("Incorrect! You have one more chance!")
+    print("  ")
+    userguess2 = input("What do you think the song is? : ")
+    print("  ")
+    if userguess2 !=songguess:
+        print("Incorrect! Game Over!")
+        sys.exit()
+        
+
+elif userguess1 == songguess:
+    print("")
+    print("Correct! Moving onto the next round...")
+    
