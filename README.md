@@ -8,9 +8,9 @@
 - [x]	Flow Chart (Digital)
 - [x] Planned Tests
 - Code that uses:
-  - [ ] Authentication
+  - [x] Authentication
   - [ ] External text files
-  - [ ] Randomisation
+  - [x] Randomisation
   - [ ] Defensive Design
  - [ ] Follows the breif
 - [ ] Evidence of testing
