@@ -38,3 +38,6 @@
 
 ### 1.03.24
 >Made [code](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/Project.py) select a random song and print the first letter
+
+### 4.03.24
+>made [code](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/Project.py) either quit the game if the guess is wrong or continue if guess is correct. I need to make it display the artist and be in a loop for the game to continuously go on untill the player loses.
