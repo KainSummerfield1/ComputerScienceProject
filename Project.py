@@ -1,4 +1,7 @@
 import random
+import time 
+import pyotp 
+import qrcode 
 
 # importing random for chosing random song
 
@@ -20,8 +23,15 @@ userguess1 = ()
 userguess2 = ()
 score = ()
 usernameuserinput = ()
+key = "NNQWS3TTOVWW2ZLSMZUWK3DE"
+googleauth = ()
+  
+uri = pyotp.totp.TOTP(key).provisioning_uri( 
+    name='Kain', 
+    issuer_name="K's Music Game")
 
 # required variables
+
 
 usernameuserinput = input("Please enter your username: ")
 
@@ -45,6 +55,17 @@ while passworduserinput != password:
     passworduserinput = input("Please enter your password: ")
 
 print("  ")
+#Google Authenticator OTP.
+totp = pyotp.TOTP(key)
+two_factor_code = totp.now()
+googleauth = input("Please enter your Google Authenticator Code : ")
+
+while googleauth != two_factor_code:
+    print("Code Invalid. Try Again.")
+    print("")
+    googleauth = input("Please enter your Google Authenticator Code : ")
+    
+print("")
 
 print("Game Starting...")
 
