@@ -41,3 +41,6 @@
 
 ### 4.03.24
 >Made [code](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/Project.py) either quit the game if the guess is wrong or continue if guess is correct. I need to make it display the artist and be in a loop for the game to continuously go on untill the player loses.
+
+### 8.03.24
+>Fixed [code](https://github.com/KainSummerfield1/ComputerScienceProject/blob/main/Project.py) when userguess2 not printing the "continue" code. Need to make progress at home with the artist name and Google Authenticator.
