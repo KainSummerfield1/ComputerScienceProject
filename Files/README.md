@@ -30,5 +30,5 @@
 ### 8.03.24 (at home)
 >Made 2 Factor Authentication. This took way to long to do.
 
-###15.03.24
+### 15.03.24
 >Unable to import third party libraries so Google auth doesn't run, nearly completed the split function, just need to print first char
