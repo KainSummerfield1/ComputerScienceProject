@@ -32,3 +32,6 @@
 
 ### 15.03.24
 >Unable to import third party libraries so Google auth doesn't run, nearly completed the split function, it prints "incorrect" even though that it is, fix that monday and create the leaderboard system.
+
+### 18.03.24
+>made loop need to fix otp
