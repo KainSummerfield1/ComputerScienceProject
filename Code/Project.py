@@ -1,3 +1,4 @@
+# code WILL NOT work unless "pyotp" isn't installed. 
 
 import random
 import time
@@ -16,18 +17,18 @@ songs = [
 
 # list of songs
 
-username = "a"
-password = "a"
+username = "Kain"
+password = "Password"
 songguess = ()
-songanswer = ()
+songanswer = () 
 userguess1 = ()
 userguess2 = ()
-score = ()
+score = 0
 usernameuserinput = ()
 key = "NNQWS3TTOVWW2ZLSMZUWK3DE"
 googleauth = ()
 song = ("")
-
+songfirstchar = ("")
 uri = pyotp.totp.TOTP(key).provisioning_uri(
     name='Kain',
     issuer_name="Kain's Music Game")
@@ -60,17 +61,20 @@ print("  ")
 #Google Authenticator OTP
 totp = pyotp.TOTP("NNQWS3TTOVWW2ZLSMZUWK3DE")
 two_factor_code = totp.now()
-googleauth = input("Please enter your Google Authenticator Code : ")
-
-while googleauth != two_factor_code:
-    print("Code Invalid. Try Again.")
-    print("")
+if usernameuserinput == "Kain" and passworduserinput == "Password":
     googleauth = input("Please enter your Google Authenticator Code : ")
+
+    while googleauth != two_factor_code:
+        print("Code Invalid. Try Again.")
+        print("")
+        googleauth = input("Please enter your Google Authenticator Code : ")
 
 print("   ")
 
 print("Game Starting...")
-while userguess2 != song:
+
+
+while userguess2 != songfirstchar:
     print("  ")
 
     print(
@@ -94,27 +98,34 @@ while userguess2 != song:
     print("   ")
 
     userguess1 = input("What do you think the song is? : ")
-
+    
+    if userguess1 == songfirstchar:
+        print("   ")
+        print("Correct! Moving onto the next round...")
+        score = score + 1
+        
+    if userguess2 == songfirstchar:
+        print("Correct! Moving onto the next round...")
+        score = score + 1
+        
     if userguess1 != songfirstchar:
         print("Incorrect! You have one more chance!")
         print("  ")
+        
         userguess2 = input("What do you think the song is? : ")
         print("  ")
+        
         if userguess2 == songfirstchar:
          print("Correct! Moving onto the next round...")
-         if userguess2 !=songfirstchar:
+         score = score + 1
+         
+        if userguess2 !=songfirstchar:
             print("Incorrect! Game Over!")
             
-        
-            
+            break
+        break
+    
 
 
 
-
-    elif userguess1 == songfirstchar:
-        print("   ")
-        print("Correct! Moving onto the next round...")
-
-        
-if userguess2 !=songfirstchar:
-    print("Incorrect! Game Over!")
+print("Your score for this session is",score)
