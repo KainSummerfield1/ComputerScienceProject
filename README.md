@@ -11,9 +11,9 @@
   - [x] Authentication
   - [ ] External text files
   - [x] Randomisation
-  - [ ] Defensive Design
+  - [x] Defensive Design
  - [ ] Follows the breif
-- [ ] Evidence of testing
+- [x] Evidence of testing
 - [ ] A 200-500 word written evaluation
 
 
